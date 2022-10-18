@@ -31,6 +31,10 @@
 		width: 8000px;
 		height: 8000px;
 		background: radial-gradient(rgba(#000, 0), rgba(#000, 0.9) 25%, #000 40%);
+
+		@media (hover: none) {
+			display: none;
+		}
 	}
 
 	.closed {

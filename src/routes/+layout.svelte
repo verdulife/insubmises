@@ -23,7 +23,7 @@
 
 	:root {
 		--color-pri: #ff005e;
-		--color-sec: #2e272a;
+		--color-sec: #4b4c50;
 		--color-text: #c9b6bc;
 	}
 

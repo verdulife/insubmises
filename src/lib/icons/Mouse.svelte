@@ -34,6 +34,10 @@
 		width: 30px;
 		margin: 0 auto;
 
+		@media (max-width: 740px) {
+			bottom: 20px;
+		}
+
 		#wheel {
 			animation: scroll ease 1.5s infinite;
 		}

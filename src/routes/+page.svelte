@@ -272,11 +272,20 @@
 
 		@media (max-width: 980px) {
 			background-position-x: 70%;
+			background-position-y: bottom;
+			background-size: 200%;
 		}
     
 		@media (max-width: 740px) {
+			height: 80%;
       background-position-y: bottom;
-      background-size: 350%;
+      background-size: 200%;
+		}
+		
+		@media (max-height: 740px) {
+			height: 100%;
+      background-position-y: bottom;
+      background-size: 200%;
 		}
 
 		article {
