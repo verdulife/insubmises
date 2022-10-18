@@ -108,7 +108,7 @@
 	}
 
 	#welcome {
-		background: url('bg.jpg') no-repeat center;
+		background: url('/bg.jpg') no-repeat center;
 		background-size: 80%;
 	}
 
@@ -216,7 +216,7 @@
 	}
 
 	#about {
-		background: url('about.jpg') no-repeat center;
+		background: url('/about.jpg') no-repeat center;
 		background-size: cover;
 		color: var(--color-text);
 
