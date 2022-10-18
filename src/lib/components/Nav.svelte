@@ -118,7 +118,7 @@
 		@media (max-width: 980px) {
 			li {
 				width: 100%;
-				justify-content: flex-end;
+				justify-content: center;
 			}
 		}
 
@@ -132,6 +132,11 @@
 			}
 
 			@media (max-width: 980px) {
+				font-size: 40px;
+				text-align: center;
+			}
+			
+			@media (max-width: 740px) {
 				font-size: 26px;
 				text-align: center;
 			}

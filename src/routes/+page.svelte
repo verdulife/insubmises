@@ -41,9 +41,10 @@
 		<h2 class="title tcenter">Propuesta <strong>educativa</strong></h2>
 
 		<p class="tcenter">
-			Nuestra propuesta educativa consta de tres partes. Lorem ipsum dolor, sit amet consectetur
-			adipisicing elit. Quos repellat porro alias ipsa? Saepe sed quis et perferendis magni fugit
-			quae quos facilis qui soluta, eaque nisi architecto hic ex.
+			<strong>(in)Submises</strong> presenta una propuesta educativa transversal y basada en la experiencia
+			personal. El espectáculo de danza es el punto de partida para adentrarse en la narrativa de la
+			coreografía ligada al debate sobre las presiones de las redes sociales. La propuesta finaliza con
+			un taller de movimiento y danza.
 		</p>
 	</div>
 
@@ -51,7 +52,7 @@
 		<li>
 			<article class="col fcenter">
 				<img src="cross.svg" alt="Espectáculo de danza" />
-				<h3 class="title tcenter">Espectáculo de danza</h3>
+				<h3 class="title tcenter">Danza</h3>
 				<p class="tcenter">
 					Muestra en vivo de la coreografía <strong class="title">(in)Submises</strong> a los participantes
 				</p>
@@ -169,9 +170,14 @@
 		}
 
 		iframe {
-			width: 1200px;
-			aspect-ratio: 16/9;
+			--video-width: 1200px;
+			--video-max-width: 80%;
+
+			width: var(--video-width);
+			height: calc(var(--video-width) / 1.7777777778);
 			max-width: 80%;
+			max-height: calc(var(--video-max-width) / 1.7777777778);
+			aspect-ratio: 16/9;
 			margin-top: 40px;
 
 			@media (max-width: 740px) {
@@ -205,6 +211,11 @@
 
 			p {
 				margin-top: 20px;
+
+				strong {
+					font-family: var(--font-title);
+					font-weight: lighter;
+				}
 			}
 		}
 
@@ -214,6 +225,7 @@
 
 			@media (max-width: 980px) {
 				gap: 200px;
+				flex-direction: column;
 			}
 
 			@media (max-width: 740px) {
@@ -275,17 +287,17 @@
 			background-position-y: bottom;
 			background-size: 200%;
 		}
-    
+
 		@media (max-width: 740px) {
 			height: 80%;
-      background-position-y: bottom;
-      background-size: 200%;
+			background-position-y: bottom;
+			background-size: 200%;
 		}
-		
+
 		@media (max-height: 740px) {
 			height: 100%;
-      background-position-y: bottom;
-      background-size: 200%;
+			background-position-y: bottom;
+			background-size: 200%;
 		}
 
 		article {
