@@ -7,8 +7,6 @@
 		window.addEventListener('mousemove', (e) => {
 			const { clientX, clientY } = e;
 
-			console.dir(spotlight);
-
 			spotlight.style.cssText = `
         top: ${clientY}px;
         left: ${clientX}px;
