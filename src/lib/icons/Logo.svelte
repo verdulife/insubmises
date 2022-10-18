@@ -18,5 +18,9 @@
 				fill: var(--color-pri);
 			}
 		}
+
+		@media (max-width: 980px) {
+			width: 160px;
+		}
 	}
 </style>
